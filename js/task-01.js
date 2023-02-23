@@ -19,3 +19,4 @@ const lastEl = categoriesWithId.lastElementChild;
 console.log("Category:", lastEl.firstElementChild.textContent);
 const lastElTotal = lastEl.lastElementChild;
 console.log("Elements:", lastElTotal.children.length);
+                  
