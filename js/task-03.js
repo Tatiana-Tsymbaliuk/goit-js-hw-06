@@ -19,7 +19,7 @@ const images = [
 // console.log(imagesEl);
 // imagesList.insertAdjacentHTML('beforeend', '<img url = ${url}, alt = ${alt}>');
 const makeListImg = ({url, alt}) => 
-  `<li><img src= "${url}" alt= "${alt}"></li>`;
+  `<li><img src= "${url}" alt= "${alt}" width = "500px"></li>`;
 console.log(images);
 
 const imagesEl = document.querySelector('.gallery');
