@@ -7,7 +7,7 @@ inputWithId.addEventListener('blur', handeleIputBlur);
 // inputWithId.addEventListener('input', handeleIputChange);
 
 function handeleIputFocus() {
-        console.log('инпут получил событие focus');
+        console.log('инпут получил событие focus!!!!!!');
 }
 
 function handeleIputBlur(event){
